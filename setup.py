@@ -47,6 +47,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/modasserbillah/plot_coverage',
-    version='0.1.9',
+    version='1.0.0',
     zip_safe=False,
 )
