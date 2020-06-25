@@ -1,14 +1,19 @@
 """Console script for plot_coverage."""
 import sys
 import click
+from .plot_coverage import plot_coverage
 
 
 @click.command()
-def main(args=None):
-    """Console script for plot_coverage."""
-    click.echo("Replace this message by putting your code into "
-               "plot_coverage.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
+@click.option("--plot", required=True, help="the type of plot you want (e.g, treemap, sunburst")
+def main(plot):
+    """This package creates a visualization from the coverage report.
+
+    Usage:
+
+        python plot_coverage --plot=treemap/sunburst
+    """
+    plot_coverage(plot)
     return 0
 
 

@@ -9,9 +9,6 @@ plot_coverage
 .. image:: https://img.shields.io/travis/modasserbillah/plot_coverage.svg
         :target: https://travis-ci.com/modasserbillah/plot_coverage
 
-.. image:: https://readthedocs.org/projects/plot-coverage/badge/?version=latest
-        :target: https://plot-coverage.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
 
 
 
@@ -19,14 +16,26 @@ plot_coverage
 Python package to generate plots from coverage report
 
 
-* Free software: BSD license
-* Documentation: https://plot-coverage.readthedocs.io.
+Generate visual plots to demonstrate your code coverage. Interactive plots are opened in the browser immediately
+after running the script. HTML files for the plots are stored alongside the coverage report inside `htmlcov` folder.
+
+Plots are generated using plotly express.
+
+
+Usage
+------
+* Install using `pip install plot_coverage`
+* From the project root (where htmlcov folder is located), run:
+        - `plot_coverage --plot=treemap`
+        - `plot_coverage --plot=sunburst`
+
 
 
 Features
 --------
 
-* TODO
+* Generate Treemap plot for showing your coverage report with color sequence based on coverage percentage.
+* Generate Sunburst plot for showing your coverage report with color sequence based on coverage percentage.
 
 Credits
 -------
@@ -35,3 +44,6 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+* Free software: BSD license

@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = ['Click>=7.0', 'beautifulsoup4==4.9.1', 'html5lib==1.1', 'pandas==1.0.5', 'plotly==4.8.1', 'lxml==4.5.1']
 
 setup_requirements = ['pytest-runner', ]
 
@@ -19,14 +19,13 @@ test_requirements = ['pytest>=3', ]
 setup(
     author="Modasser Billah",
     author_email='imtishad@gmail.com',
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
