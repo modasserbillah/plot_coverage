@@ -29,7 +29,22 @@ Usage
         - `plot_coverage --plot=treemap`
         - `plot_coverage --plot=sunburst`
 
+Example
+-------
 
+Treemap
+========
+.. image:: treemap.png
+   :alt: Treemap of coverage report
+   :class: with-shadow
+   :scale: 50
+
+Sunburst
+=========
+.. image:: sunburst.png
+   :alt: Sunburst of coverage report
+   :class: with-shadow
+   :scale: 50
 
 Features
 --------

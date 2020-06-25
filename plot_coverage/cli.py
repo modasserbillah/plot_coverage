@@ -11,7 +11,7 @@ def main(plot):
 
     Usage:
 
-        python plot_coverage --plot=treemap/sunburst
+        plot_coverage --plot=treemap/sunburst
     """
     plot_coverage(plot)
     return 0
