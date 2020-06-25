@@ -24,7 +24,7 @@ Plots are generated using plotly express.
 
 Usage
 ------
-* Install using `pip install plot_coverage`
+* Install using `pip install plot-coverage`
 * From the project root (where htmlcov folder is located), run:
         - `plot_coverage --plot=treemap`
         - `plot_coverage --plot=sunburst`
