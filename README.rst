@@ -29,19 +29,22 @@ Usage
         - `plot_coverage --plot=treemap`
         - `plot_coverage --plot=sunburst`
 
+Note: Make sure htmlcov/index.html is present at the root of your project before running the above. So, `coverage html`
+should be run before attempting this. 
+
 Example
 -------
 
 Treemap
 ========
-.. image:: treemap.png
+.. image:: https://raw.githubusercontent.com/modasserbillah/plot_coverage/master/treemap.png
    :alt: Treemap of coverage report
    :class: with-shadow
    :scale: 50
 
 Sunburst
 =========
-.. image:: sunburst.png
+.. image:: https://raw.githubusercontent.com/modasserbillah/plot_coverage/master/sunburst.png
    :alt: Sunburst of coverage report
    :class: with-shadow
    :scale: 50
